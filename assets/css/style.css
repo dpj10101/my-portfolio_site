@@ -1,0 +1,77 @@
+/* RESETS */
+img {
+    max-width: 100%;
+}
+/* GLOBAL CLASSES */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 120);
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+nav {
+    margin-right: 5%;
+    font-size: 20pt;
+}
+
+/* Menu Items  - should this be under "Custom Styles section" so that it more closely mirrors the html flow? */
+h2 {
+    text-align: center;
+    margin-right: 5%;
+}
+
+/* CUSTOM STYLES */
+
+/* Got the idea/css code to use "overlow" and "white-space" to keep individual "a" elements from spilling onto next line from https://www.w3docs.com/snippets/html/how-to-force-the-content-of-the-div-element-to-stay-on-the-same-line.html */
+nav a {
+    margin: 10pt;
+    color: black;
+    overflow: hidden;
+    white-space: nowrap;
+}   
+
+/* Why does the margin-bottom have no effect on how far away the text that follows the picture appears?  I had to make this happen by adding a top margin to the text */
+#my-photo {
+    margin-inline: 0;
+    margin-top: 0;
+    /* margin-bottom: 50px;  */
+}
+
+#projects {
+    display: flex;
+    display: block;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+/* I can't figure out why the images for the four other projects stack on top of this image if I set the height to anything but "auto," which then makes the image taller than I want it to be */
+#project_1 {
+   height: auto; 
+}
+
+/* The four projects other than the principal one */
+.smaller-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.smaller-projects > figure {
+    max-width: 40%;
+}
+
+footer {
+    display: flex;
+    margin: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 120);
+}
+
+/* MEDIA QUERIES */
