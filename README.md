@@ -29,6 +29,8 @@ Image of photographer:  Photo by <a href="https://unsplash.com/@shbabalif?utm_so
 Please refer to the license in the repo.
 
 ## Screenshot
+<img width="1582" alt="Screenshot 2023-03-09 at 7 03 53 PM" src="https://user-images.githubusercontent.com/124799362/224191081-e7613788-06f8-4799-8851-49b19225b5ae.png">
 
 
 ## Link to deployed application
+https://dpj10101.github.io/my_portfolio_site/
